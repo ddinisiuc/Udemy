@@ -1,7 +1,7 @@
 'use strict';
 
 
-let money = +prompt ("Ваш бюджет на месяц?", ""),
+let money = +prompt ("Ваш бюджет на месяц?", "sds"),
     time = prompt ("Введите дату в формате YYYY-MM-DD", "");
     
 let appData = {
@@ -24,7 +24,7 @@ for (let i = 0; i < 2; i++) {
 
         appData.expenses[a] = b;
     } else {                            
-        console.log ("bad result");
+        console.log ("wrong");
         i--;
     }
 
